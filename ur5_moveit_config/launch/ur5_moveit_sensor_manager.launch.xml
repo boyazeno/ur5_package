@@ -1,0 +1,4 @@
+<launch>
+  <rosparam command="load" file="$(find ur5_moveit_config)/config/sensors_3d.yaml" />
+  <param name="octomap_frame" type="string" value="base_link" />
+</launch>
